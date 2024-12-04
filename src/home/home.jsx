@@ -6,7 +6,7 @@ import blackhole from '../components/assets/blackhole.webm';
 import Aboutus from '../components/aboutus/aboutus';
 import Joinus from '../components/joinus/joinus';
 import CountdownTimer from '../components/countdown/countdown';
-import Footer from '../components/footer/footer';
+import Footer from '../components/footer/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 const IntroAnimation = ({ onEnd }) => {
   return (
