@@ -1,0 +1,43 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 10%; /* Adds spacing between the two timers */
+    padding-bottom: 5%;
+  }
+  
+  .timer {
+    font-family: sans-serif;
+    color: purple;
+    font-weight: 100;
+    text-align: center;
+    font-size: 120%;
+    display: inline-block;
+  }
+  
+  .timer > div {
+    padding: 10px;
+    border-radius: 3px;
+    font-size: x-large;
+    display: inline-block;
+  }
+  
+  .timer > div > span {
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+    border-bottom: 1px solid yellow; /* Underline style */
+    padding-bottom: 5px; 
+    font-size: xx-large;
+  }
+  
+  .smalltext {
+    padding-top: 5px;
+    font-size: larger;
+    
+  }
+  @media (max-width: 768px){
+    .countdown-container{
+        flex-direction: column;
+    }
+  }

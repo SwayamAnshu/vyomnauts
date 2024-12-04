@@ -1,0 +1,19 @@
+.main-container1{
+    height: 65%;
+    padding: 20px;
+    background-color: #292F36;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;    
+}
+.vector{
+
+    margin-left:20px ;
+    height: 100%;
+    width: 35%;    
+}
+.joinus{
+    color: purple;
+    margin-left: 20%;
+    font-size: 50px;
+}

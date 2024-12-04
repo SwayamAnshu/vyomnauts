@@ -1,0 +1,10 @@
+#globeViz {
+    width: 500px; /* Globe will occupy 50% of viewport width */
+    height: 500px; /* Globe will occupy 50% of viewport height */
+    
+}
+.main-globe-container{
+  display: flex;
+  background-color: black;
+
+}

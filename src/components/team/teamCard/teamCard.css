@@ -1,0 +1,36 @@
+/* MemberCard.css */
+.card {
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5% 20%;
+    transition: transform 0.3s ease;
+    
+  }
+.card:hover{
+  transform: scale(1.1);
+}
+  .photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .social-icons{
+    padding: 5px;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    color: #555;
+    transition: color 0.3s;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #0077b5; /* Change color on hover */
+  }
+  

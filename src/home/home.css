@@ -1,0 +1,58 @@
+/* App.css */
+.intro-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  .App{
+    background-position: center center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    position: absolute;
+  }
+  h1 {
+    font-family: 'Arial', sans-serif;
+  }
+  .star{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+  }
+  .bgvideo{
+    rotate: 180;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0px;
+    object-fit: cover;
+  }
+  .main-heading{
+    position: absolute;
+    z-index: 11;
+    top: 30%;
+    left: 5%;
+    font-size: 70px;
+    font-weight: 500;
+  }
+  .white1{
+    height: 400px;
+    background-color: aliceblue;
+    width: 100vw;
+  }
+  
+  .both-countdown{
+    display: flex;
+    flex-direction: column;
+  }
+  
